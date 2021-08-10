@@ -1,0 +1,173 @@
+
+/*register*/
+
+.body-reg{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(/image/fondo-regg.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content-reg{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.formWraper{
+    display: flex;
+    width: 55%;
+    height: 550px;
+    background-color: rgba(248, 221, 68, 0.575);
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20x black;
+    padding: 3px;ç
+    
+   
+}
+
+
+
+.formDiv{
+    width: 50%;
+    padding: 8%;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.formDiv h2{
+    color: rgb(255, 224, 47);
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.welcomeDiv{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.322);
+    
+    
+    
+}
+
+
+.content_w_d{
+    background-image:  url(/image/fondo-reg-chiquito.jpg);
+    background-size: cover;
+   
+   
+}
+
+.welcomeDiv h2{
+    margin-top: 150px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.socialBtn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+ .ll i{
+    margin-left: 8px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(250, 250, 250);
+    margin: 15px;
+    line-height: 30px;
+    box-shadow: 0px 0px 10px black;
+    
+}
+
+.text-reg{
+    font-size: small;
+    margin: 10px;
+}
+
+
+
+.formGroup{
+    width: 100%;
+    position: relative;
+
+}
+
+.formGroup input{
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-indent: 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(167, 165, 165);
+}
+
+.formGroup i{
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    color: grey;
+    font-size: smaller;
+    
+}
+
+input::placeholder{
+position: relative;
+left: 20px;
+}
+
+.checkBox{
+width: 100%;
+margin-top: 2px;
+}
+
+.btn-reg{
+    background-color: rgb(243, 217, 70);
+    color: white;
+    border-style: none;
+    margin-top: 20px;
+}
+
+.btn-reg2{
+    background-color: transparent; 
+    border: 2px solid black;
+    margin-top: 30px;
+}
+
+.icon:hover{
+   background-color: #99876b; 
+   cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 800px){
+    .formDiv{
+        width: 90%;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .welcomeDiv{
+        display: none;
+    }
+
+
+}
