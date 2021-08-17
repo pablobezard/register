@@ -2,7 +2,7 @@
 
 span:hover {
   cursor: pointer;
-  color: #a057af;
+  color: rgb(220, 193, 87);
 }
 
 .body-reg {
@@ -24,7 +24,7 @@ span:hover {
   display: flex;
   width: 55%;
   height: 550px;
-  background-color: rgba(125, 49, 175, 0.575);
+  background-color: rgb(255, 182, 25);
   margin-top: 80px;
   border-radius: 10px;
   box-shadow: 0px 0px 20x black;
@@ -40,7 +40,7 @@ span:hover {
 }
 
 .formDiv h2 {
-  color: rgb(84, 35, 129);
+  color: rgb(255, 182, 25);
   margin-top: -5px;
   margin-bottom: 10px;
 }
@@ -136,7 +136,7 @@ input::placeholder {
   width: 50%;
   padding: 15px;
   text-align: center;
-  background-color: rgb(125, 62, 207);
+  background-color: rgb(255, 182, 24);
   color: white;
   border-radius: 20px;
   border-style: none;
@@ -160,7 +160,7 @@ input::placeholder {
 .btn-reg:hover,
 .btn-reg2:hover,
 .icon:hover {
-  background-color: #a057af;
+  background-color: rgb(255, 210, 112);
   cursor: pointer;
 }
 
